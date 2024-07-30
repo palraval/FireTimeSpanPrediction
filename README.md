@@ -10,7 +10,7 @@ Once this has all been completed, the categorical columns in features dataset is
 
 ## Model and Performance
 
-The Gradient Boosting Regressor is the chosen model to learn on the preprocessed dataset. This model is fitted on the training data and then is used to predict the number of incident days based on the ten supplied features. Three Gradient Boosting Regressor Models with varying parameters are created to see which one results in the best overall R2 score. The first model contains: 200 trees, a learning_rate of 0.1, and maximum depth of 8. The second model has: 220 trees, a learning_rate of 0.1, and maximum depth of 7. The third model is created with: 200 trees, a learning_rate of 0.1, and maximum depth of 6. In terms of highest to lowest R2 scores: Model 3 has 0.817, Model 2 has 0.813, and Model 1 has 0.802. Since Model 3 provides the highest R2 score, this is the model that will be used for predicting the total number of incident days. 
+The Gradient Boosting Regressor is the chosen model to learn on the preprocessed dataset. This model is fitted on the training data and then is used to predict the number of incident days based on the ten supplied features. Three Gradient Boosting Regressor Models with varying parameters are created to see which one results in the best overall R2 score. The first model contains: **200 trees**, a learning_rate of **0.1**, and maximum depth of **8**. The second model has: **220 trees**, a learning_rate of **0.1**, and maximum depth of **7**. The third model is created with: **200 trees**, a learning_rate of **0.1**, and maximum depth of **6**. In terms of highest to lowest R2 scores: Model 3 has **0.817**, Model 2 has **0.813**, and Model 1 has **0.802**. Since Model 3 provides the highest R2 score, this is the model that will be used for predicting the total number of incident days. 
 
 
 ## Flask Website for Reader's Usage 
@@ -20,7 +20,7 @@ Flask is used to build a website that users can interact with and input their ow
 
 ## Acknowledgements
 
-Thank you to the [Open-Meteo API] (https://open-meteo.com/) for supplying past temperature data that was used to create the dataset the model learned from.  
+Thank you to the [Open-Meteo API](https://open-meteo.com/) for supplying past temperature data that was used to create the dataset the model learned from.  
 
 Thank you to [Nitesh Malviya](https://bootsnipp.com/snippets/WMlMa) for providing the code that was used as the website template for this project. 
 
